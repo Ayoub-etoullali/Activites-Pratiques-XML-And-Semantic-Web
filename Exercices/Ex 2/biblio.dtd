@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT biblio (livre)*>
+<!ELEMENT livre (auteur)+ >
+<!ATTLIST livre
+          catégorie
+          CDATA
+          "">
+<!ELEMENT id_ISBN (#PCDATA) >
+<!ELEMENT auteur (nom,identifiant,dentificateurs_Pub)>
+<!ELEMENT titre (#PCDATA) >
+<!ELEMENT langue (#PCDATA) >
+<!ATTLIST langue
+          type
+          (fr|en|ar|es)
+          "fr">
+<!ELEMENT résumé (#PCDATA) >
+<!ELEMENT date (#PCDATA) >
+    
+      

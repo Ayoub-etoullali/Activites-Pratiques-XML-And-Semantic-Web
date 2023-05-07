@@ -1,0 +1,22 @@
+biblio{
+    border: 1px solid gray;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 70%;
+}
+
+*{
+    display: block;
+    border: 1px dotted;
+    margin: 0.4rem;
+    padding: 0.4rem;
+}
+
+livre[type]{
+    background: rgb(188, 188, 188);
+}
+/*
+more[before]{
+
+}
+*/

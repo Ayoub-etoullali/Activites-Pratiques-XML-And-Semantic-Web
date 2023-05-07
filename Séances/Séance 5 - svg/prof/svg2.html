@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        svg{
+            border: 8px solid black;
+            background-color: #FAA;
+            
+        }
+        path:hover{
+            fill: greenyellow;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <svg width="600" height="600">
+        <path 
+        d="
+        m 100,300
+        h 100
+        q 400,-300 200,0
+        h 100
+        "
+        fill="#AAAA"
+        stroke="black"/>
+            
+    </svg>
+    <script>
+        const path = document.querySelector("path")
+        console.log(path.getTotalLength())
+        let ilength = path.getTotalLength()
+        let length = ilength
+        
+        setInterval(() => {
+            length -= 10
+            path.setAttribute('stroke-dasharray', [length , ilength - length])
+        }, 100);
+    </script>
+</body>
+</html>

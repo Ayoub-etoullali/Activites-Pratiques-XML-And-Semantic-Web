@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT repertoire (contact)* >
+<!ATTLIST repertoire maj CDATA "2022-09-21" >
+<!ELEMENT contact (nom, prénom?, téléphone+, email*) >
+<!ATTLIST contact 
+            id ID #REQUIRED
+            type (ami|pro) "ami" >
+
+
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT prénom (#PCDATA) >
+<!ELEMENT téléphone (#PCDATA) >
+<!ATTLIST téléphone type (mobile|bureau|domicile) #REQUIRED >
+
+<!ELEMENT email (#PCDATA) >

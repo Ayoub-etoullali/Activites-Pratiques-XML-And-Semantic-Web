@@ -1,0 +1,4 @@
+<!ELEMENT message (de, a, corps)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+<!ELEMENT corps (#PCDATA)>

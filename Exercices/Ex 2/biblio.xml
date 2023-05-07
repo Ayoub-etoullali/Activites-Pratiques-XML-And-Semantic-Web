@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="biblio.css" ?>
+
+<biblio>
+    
+    <livre catégorie="Développement personnel">
+        <auteur>
+            <nom>  Rhonda Byrne </nom>
+            <identifiant> ...... </identifiant>
+            <dentificateurs_Pub> ........ </dentificateurs_Pub>
+        </auteur>
+        <id_ISBN> 85485895214 </id_ISBN>
+        <titre> Le Secret </titre>
+        <langue> an </langue>
+        <résumé>..............................</résumé>
+        <datePub>novembre 2006</datePub>
+    </livre>
+    
+    <livre catégorie="Livre d’auto-assistance">
+        <auteur>
+            <nom>  Elfiky Ibrahim </nom>
+            <identifiant> ...... </identifiant>
+            <dentificateurs_Pub> ........ </dentificateurs_Pub>
+        </auteur>
+        <id_ISBN> 8549658586585 </id_ISBN>
+        <titre> لطريق إلى النجاح </titre>
+        <langue> ar </langue>
+        <résumé>..............................</résumé>
+        <datePub>2008</datePub>
+    </livre>
+    
+</biblio>

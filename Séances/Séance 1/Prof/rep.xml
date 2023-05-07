@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repertoire SYSTEM "rep.dtd">
+<repertoire maj="jhgjh">
+    <contact >
+        <nom></nom>
+        <téléphone type="bureau"></téléphone>
+        <téléphone type="bureau"></téléphone>
+        <email></email>
+        <email></email>
+    </contact>
+    <contact>
+        <nom></nom>
+        <téléphone type="bureau"></téléphone>
+    </contact>
+</repertoire>

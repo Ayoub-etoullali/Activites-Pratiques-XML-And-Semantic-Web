@@ -1,0 +1,11 @@
+<!ELEMENT repertoire (contact)*>
+<!ELEMENT contact (nom,prenom?,telephone+,email*)>
+<!ATTLIST contact type (ami|pro) "ami">
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ATTLIST telephone
+         type 
+         (domicile|bureau|mobile)
+         "mobile">
+<!ELEMENT email (#PCDATA)>

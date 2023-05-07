@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 5 - Croisillon</title>
+    <style>
+        svg {
+            border: 6px solid black;
+            background-color: rgb(236, 234, 234);
+        }
+
+        path {
+            fill: rgb(230, 196, 201);
+            stroke: rgb(255, 21, 0);
+            stroke-width: 3px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <svg width="400" height="300">
+
+        <!-- Dégradé -->
+        <linearGradient id="grad5">
+            <stop offset="0%" stop-color="#fff"></stop>
+            <stop offset="100%" stop-color="#000"></stop>
+        </linearGradient>
+        <!-- Masque -->
+        <mask id="mask2" x="0" y="0" width="400" height="300">
+            <rect x="0" y="0" width="400" height="300" fill="url(#grad5)" />
+        </mask>
+
+        <!-- Image Masquée -->
+        <image xlink:href="Mona lisa.jpeg"
+               x="0" y="0" width="400" height="300" mask="url(#mask2)"/>
+
+               <!-- Création du motif -->
+        <pattern id="pat0" width="25" height="25" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" rx="100%" ry="100%" width="20" height="20" fill="#FFF"/>
+        </pattern>
+
+        <!-- Utilisation du motif -->
+        <rect x="0" y="0" width="400" height="300" fill="url(#pat0)"></rect>
+
+
+</svg>
+</body>
+
+</html>

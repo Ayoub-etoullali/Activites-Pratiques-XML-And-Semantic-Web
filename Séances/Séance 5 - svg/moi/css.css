@@ -1,0 +1,11 @@
+circle{
+    fill:#F00;
+    stroke: #F80;
+    stroke-width: 5;
+    opacity: .5  ;
+}
+
+circle:hover{
+    opacity: 1;
+    stroke-width: 10;
+}

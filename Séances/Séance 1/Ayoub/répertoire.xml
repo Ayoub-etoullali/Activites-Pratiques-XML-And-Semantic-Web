@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+<repertoire>
+
+    <contact_1>
+        <nom sexe="M"> ETOULLALI </nom>
+        <prenom> Ayoub </prenom>
+        <numeros>
+            <numero type="mobile"> ---------</numero>
+            <numero type="bureau"> ---------</numero>
+            <numero type="domicile"> ---------</numero>
+        </numeros>
+        <adresse> ----@---- </adresse>
+    </contact_1>
+
+    <contact_2>
+        <nom sexe="M"> ETOULLALI </nom>
+        <prenom> Ayoub </prenom>
+        <numeros>
+            <numero type="mobile"> ---------</numero>
+            <numero type="bureau"> ---------</numero>
+            <numero type="domicile"> ---------</numero>
+        </numeros>
+        <adresse> ----@---- </adresse>
+    </contact_2>
+
+</repertoire>

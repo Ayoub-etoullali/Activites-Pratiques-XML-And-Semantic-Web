@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="style.css" ?>
+
+<repertoire maj="2022-09-21">
+
+    <contact type="ami">
+        <nom> ETOULLALI </nom>
+        <prénom> Ayoub </prénom>
+        <téléphone type="mobile"> 0612345678 </téléphone>
+        <téléphone type="bureau"> 0612345678 </téléphone>
+        <téléphone type="domicile"> 0612345678 </téléphone>
+        <email> ayoub@gmail.com </email>
+    </contact>
+
+    <contact type="prof">
+        <nom> Daaif </nom>
+        <prénom> Prof </prénom>
+        <téléphone type="mobile"> 0612345678 </téléphone>
+        <téléphone type="bureau"> 0612345678 </téléphone>
+        <téléphone type="domicile"> 0612345678 </téléphone>
+        <email> prof@gmail.com </email>
+    </contact>
+   
+   
+
+</repertoire>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE message SYSTEM "message.dtd" >
+<message>
+    <de>Toto<b/></de>
+    <a  attr="blabla"> Fifi</a>
+    <corps>Bonjour</corps>
+    <corps>Bonjour</corps>
+    <corps>Bonjour</corps>
+</message>
+

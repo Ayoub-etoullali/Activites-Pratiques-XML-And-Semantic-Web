@@ -1,0 +1,3 @@
+<!ELEMENT Z (A|B) >
+
+p 
